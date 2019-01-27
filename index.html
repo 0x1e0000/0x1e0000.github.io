@@ -1,13 +1,764 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Mohamed Ait Si Mhand</title>
-</head>
-<body>
-    <h1>Hello World</h1>
-</body>
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]--><!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]--><!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]--><!--[if gt IE 8]><!--><html class='no-js' dir='ltr' lang='en' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+<!--<![endif]-->
+  <head>
+	<!--
+   	/////////////////////////////////////////////////////////////////////////////
+
+                  Author   :         MOHAMED AIT SI MHAND
+                  Template :         .................
+                  Website  :         www.mohamedaitsimhand.tk
+                  Twitter  :         www.twitter.com/mohamadaitsi
+                  Facebook :         www.facebook.com/0x10000
+                  Email    :         mohamedaitsimhand@gmail.com
+
+    ////////////////////////////////////////////////////////////////////////////
+    -->
+    
+    <title>
+      MOHAMED AIT SI MHAND
+    </title>
+
+	<!-- Always force latest IE rendering engine or request Chrome Frame -->
+    <meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'/>
+    <!-- meta character set -->
+    <meta charset='UTF-8'/>
+    <!-- Mobile Specific Meta -->
+    <meta content='width=device-width, initial-scale=1.0' name='viewport'/>
+    <!-- Meta Description, Keywords and Author -->
+    <meta content='Mohamed Ait Si Mhand,Mohamed,ait si,bboy,developer,programmer,designer,web designer,swimmer,persnal,persnal webSite,web design' name='keywords'/>
+    <meta content='Mohamed Ait Si Mhand' name='author'/>
+    <meta content='This Web Site Designer by Mohamed Ait Si Mhand, is this website owner, he got idea for build his site for get more serious clients to work for.' name='description'/>
+	<!-- CSS
+	================================================== -->
+
+    <!-- Bootstrap CSS -->
+    <link crossorigin='anonymous' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css' integrity='sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm' rel='stylesheet'/>
+
+    <!-- Font Awesome JS -->
+    <link crossorigin='anonymous' href='https://use.fontawesome.com/releases/v5.1.0/css/all.css' integrity='sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt' rel='stylesheet'/>
+
+    <!-- favicon.ico -->
+    <link href='img/favicon.ico' rel='shortcut icon'/>
+
+    <!-- Animation CSS -->
+    <link href='https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css' rel='stylesheet'/>
+
+    <!-- JavaScript
+================================================== -->
+
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js"></script>
+    <![endif]-->
+
+    <!-- Modernizer Script for old Browsers -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js'/>
+
+
+    <style>
+      /**
+      *
+      * --------------------------------------------------------------------------------------------------
+      *
+      *                               Author   :         MOHAMED AIT SI MHAND
+      *                               Template :         .................
+      *                               Website  :         www.mohamedaitsimhand.tk
+      *                               Twitter  :         www.twitter.com/mohamadaitsi
+      *                               Facebook :         www.facebook.com/0x10000
+      *                               Email    :         mohamedaitsimhand@gmail.com
+      *
+      * --------------------------------------------------------------------------------------------------
+      *
+
+      Used Colors:
+
+      Blue            : #367ABD
+
+      Dark-Grey       : #5a5a5a
+
+      light-Grey      : #f5f5f5
+
+      Yellow          : #FCC72C
+
+      */
+
+
+
+      * {
+          padding: 0;
+          margin: 0;
+          box-sizing: border-box;
+      }
+      html{
+      }
+      body{
+          font-family: "Source Sans Pro", Arial, sans-serif;
+          background: none;
+          color: #5a5a5a;
+      }
+      a {
+          text-decoration: none;
+          color: #5a5a5a;
+      }
+      li {
+          list-style: none;
+      }
+      label,textarea{
+          display: block;
+      }
+      .bg-blue{
+        background-color: #367ABD;
+      }
+      .header{
+        display: block;
+        color: #5a5a5a;
+        font-size: 40px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        padding-top: 58px;
+        padding-bottom: 20px;
+        margin: 0;
+        font-weight: bold;
+        text-align: center;
+      }
+      .mini-header{
+        text-align: center;
+        padding-bottom: 58px;
+      }
+      .mini-header::after{
+        display: block;
+        position: relative;
+        content: '';
+        top: 15px;
+        left: 50%;
+        width: 100px;
+        margin-left: -50px;
+        height: 3px;
+        background: #FCC72C;
+      }
+      .navbar-brand{
+        padding: 0;
+        margin: 0;
+
+      }
+
+      .show-in-sm{
+        display: none;
+      }
+      /*--------------- Home -------------------*/
+      #home{
+          width: 100%;
+          background-image: url("https://i.imgur.com/XnY65zT.jpg");
+          background-color: #5a5a5a;
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-attachment: fixed;
+          color: #ffffff;
+      }
+
+      #home .shadow{
+		  background-color:#0000004d;
+          width: 100%;
+          height: 91.7vh;
+      }
+      #home .shadow .container{
+          text-align: center;
+          position: relative;
+          top: 30%
+      }
+      #home h1{
+          font-size: 65px !important;
+          margin: 27px 0 0 0;
+          text-transform: uppercase;
+          font-family: Arial;
+          font-weight: bold;
+      }
+      #home h2{
+          margin: 0;
+          color: #ffffff;
+          font-family: adobe-garamond-pro;
+          font-size: 24px;
+          font-style: italic;
+          font-weight: 400;
+          letter-spacing: 1px;
+          line-height: 1.5em;
+          text-transform: none;
+      }
+      #home h2::after{
+        display: block;
+        position: relative;
+        content: '';
+        top: 15px;
+        left: 50%;
+        width: 100px;
+        margin-left: -50px;
+        height: 3px;
+        background: #FCC72C;
+      }
+      #home h3{
+        display: none;
+        font-size: 40px !important;
+        margin: 0;
+        text-transform: uppercase;
+        font-family: Arial;
+        font-weight: bold;
+        top: 12vh;
+        position: relative;
+      }
+      @media screen and (max-width : 992px) {
+        #home h1{
+          display: none
+        }
+        #home h3{
+          display: block;
+        }
+        .show-in-sm{
+          display: inline-block;
+        }
+        .hidden-in-sm{
+          display: none
+        }
+      }
+      /*--------------- Navbar -------------------*/
+      #menu .container .collapse .navbar-nav .nav-item .nav-link{
+        color: #ffffff;
+        padding: 10px 50px;
+      }
+	  #menu .container img{
+	  	color: #ffffff;
+	  }
+      #menu .container button span {
+        color: #ffffff;
+      }
+      #menu .navbar-nav .nav-item .nav-link:hover{
+        color: #dadada;
+      }
+      /*--------------- Works -------------------*/
+      #works{
+        padding-bottom: 58px;
+      }
+      #works .row{
+        margin: 0;
+      }
+      #works .row div{
+        padding: 0
+      }
+      #works .row div .work-img{
+        width: 100%;
+        height: 230px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      /* If we hover .work-img display .work-info*/
+      #works .row div .work-img:hover .work-info{
+        display: block;
+      }
+      #works .row div .work-img .work-info{
+        display: none;
+        text-align: center;
+        width: 100%;
+        height: 100%;
+        padding: 5em 0;
+        color: #ffffff;
+        font-weight: bold;
+        background-color: #0009;
+        cursor: pointer;
+      }
+	  #works .row div .work-img .work-info a{
+		color: #ffffff;
+	    font-size: 30px;
+	  }
+      /*--------------- Hobies -------------------*/
+      #hobies{
+        background: #f5f5f5;
+        padding-bottom: 58px;
+      }
+      #hobies .row{
+        margin: 0
+      }
+      #hobies .row i{
+        color: #FCC72C;
+        font-size: 45px;
+        margin-bottom: 30px
+      }
+      #hobies .row div{
+        margin-top: 30px;
+      }
+      #hobies .row div h4{
+        color: #5a5a5a;
+        font-weight: bold;
+      }
+      #hobies .row div p{
+        padding: 0 40px;
+      }
+      /*--------------- About -------------------*/
+      #about{
+        background: #f5f5f5;
+        padding-bottom: 58px;
+      }
+      #about .info{
+        background: #ffffff;
+        margin: 50px auto 0 auto;
+        padding: 20px;
+        box-shadow: 0 0 50px #959595;
+        width: 80%;
+        border-radius: 5px;
+      }
+      #about .info .img{
+        position: relative;
+        margin: 0 auto;
+        width: 115px;
+        height: 115px;
+        background: #cfcfcf;
+        border: 10px solid #ffffff;
+        border-radius: 100px;
+        bottom: 5em;
+        overflow: hidden;
+      }
+      #about .info .img img{
+        width: auto;
+        height: 100%;
+        position: relative;
+        right: 0.5em;
+      }
+      #about .info h1{
+        margin: 0;
+        margin-bottom: 10px;
+        margin-top: -70px;
+      }
+      #about .info h6{
+        color: #367ABD;
+      }
+      #about .info p{
+        padding: 20px;
+        margin: 0;
+        font-style: italic;
+        font-size: 20px;
+        line-height: 1.6em;
+        color: #555555;
+      }
+      #about .info .social ul{
+        margin: 0;
+      }
+      #about .info .social ul li{
+        display: inline-block;
+        margin: 0 25px;
+      }
+      #about .info .social ul li a{
+        font-size: 20px;
+        text-decoration: none;
+        color: #367abd;
+      }
+      #about .info .social ul li a:hover{
+        color: #FCC72C;
+      }
+      /*--------------- Contact -------------------*/
+      #contact{
+        padding-bottom: 70px;
+		display:none;
+      }
+      #contact label::after{
+        content: '*';
+        color: #f66;
+        margin-left: 2px;
+      }
+      #contact form textarea{
+        height: 180px;
+      }
+      #contact form button{
+        background: #FCC72C;
+        color: #5a5a5a;
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+        padding: 15px 0;
+        font-weight: bold;
+      }
+      #contact form button:hover{
+        background: #5a5a5a;
+        color: #ffffff
+      }
+      #contact form button i{
+        margin-right: 20px;
+      }
+      #contact form input,#contact form textarea{
+        background: rgba(0,0,0,0);
+        border-radius: 0;
+      }
+      /*--------------- Footer -------------------*/
+      #footer{
+        background-color: #0e0e0e;
+        color: #f5f5f5;
+      }
+      #footer .top-button{
+        margin: 0 auto;
+        border-radius: 50px;
+        height: 50px;
+        position: relative;
+        bottom: 25px;
+        background: #FCC72C;
+        border: none;
+        display: inline-block;
+        width: 50px;
+      }
+      #footer .top-button a i{
+        color: #0e0e0e;
+        font-size: 25px;
+        top: 12px;
+        position: relative;
+      }
+      #footer  ul{
+        margin: 0 auto;
+      }
+      #footer ul li{
+        padding: 10px 15px;
+        display: inline-block;
+      }
+      #footer ul li a{
+        color: #cfcfcf;
+        text-decoration: none;
+        font-size: 20px;
+      }
+      #footer ul li a:hover{
+        color: #FCC72C;
+      }
+      #footer p{
+        margin: 30px 0;
+        font-size: 15px;
+      }
+      #footer p a{
+        color: #cfcfcf;
+        font-weight: bold;
+      }
+      #footer .row li span{
+        margin-left: 10px;
+      }
+      #footer .row li i{
+        color: #FCC72C;
+      }
+      #footer .row .fa-phone{
+        transform: rotate(90deg);
+      }
+    </style>
+  </head>
+  <body>
+   
+    
+	<!-- Home Section -->
+    <section id='home'>
+        <div class='shadow'>
+          <div class='container'>
+            <h2 class='animated jello'>I&#39;m here to create meaningful and lasting relationships with my clients.</h2>
+            <h1 class='animated zoomIn'>let me build something amazing for you</h1>
+            <h3 class='animated zoomIn show-in-sm'>Let&#39;s build something</h3>
+          </div>
+        </div>
+    </section>
+
+    <!-- Navigation-Bar Section -->
+
+    <!--Navbar-->
+    <nav class='navbar navbar-expand-lg sticky-top bg-blue' id='menu'>
+
+     <div class='container'>
+
+      <!-- Collapse button -->
+      <button aria-controls='basicExampleNav' aria-expanded='false' aria-label='Toggle navigation' class='navbar-toggler' data-target='#basicExampleNav' data-toggle='collapse' type='button'>
+       <span class='fas fa-bars animated zoomIn'/>
+      </button>
+
+      <!-- Display this Navbar brand in small screen -->
+      <a class='navbar-brand show-in-sm animated zoomIn' href='#' style='position: relative;left: 36%;'>
+       <img alt='Mohamed' src='https://i.imgur.com/b3wJo21.png' width='30'/>
+      </a>
+
+      <!-- Collapsible content -->
+      <div class='collapse navbar-collapse justify-content-center font-weight-bold text-center' id='basicExampleNav'>
+
+        <!-- Links -->
+        <ul class='navbar-nav'>
+         <li class='nav-item'>
+          <a class='nav-link animated bounceInLeft' href='#home'>Home</a>
+         </li>
+         <li class='nav-item'>
+          <a class='nav-link animated bounceInLeft' href='#works'>Works</a>
+         </li>
+         <li class='nav-item'>
+          <a class='nav-link animated bounceInLeft' href='#hobies'>Hobbies</a>
+         </li>
+
+        </ul>
+
+        <!-- Navbar brand -->
+        <a class='navbar-brand hidden-in-sm  animated zoomIn' href='#'>
+         <img alt='Mohamed' src='https://i.imgur.com/b3wJo21.png' width='30'/>
+        </a>
+
+        <!-- Links -->
+        <ul class='navbar-nav'>
+         <li class='nav-item'>
+          <a class='nav-link animated bounceInRight' href='#about'>About</a>
+         </li>
+         <li class='nav-item'>
+          <a class='nav-link animated bounceInRight' href='#contact'>Contact</a>
+         </li>
+         <li class='nav-item'>
+          <a class='nav-link animated bounceInRight' href='#footer'>Footer</a>
+         </li>
+        </ul>
+
+       </div>
+      </div>
+    </nav>
+
+    <!-- Hobbies Section -->
+    <section id='hobies'>
+        <h1 class='header top-animation'>My Hobbies</h1>
+        <h5 class='mini-header bottom-animation'>This is some of my hobbies that I do everyday, since I was a kid.</h5>
+        <div class='row text-center'>
+            <div class='col-lg-4 col-md-4 left-animation'>
+                <i class='fas fa-swimmer'/>
+                <h4>Swimming</h4>
+                <p>going to the beach every-week releases the negative energy and definitely make me work better.</p>
+            </div>
+			<div class='col-lg-4 col-md-4 right-animation'>
+                <i class='fas fa-language'/>
+                <h4>Learning Languages</h4>
+                <p>having a good communication with my clients is so important to me that&#8217;s why I spend some of my time improving the languages that I already talk and learning  new language. </p>
+            </div>
+            <div class='col-lg-4 col-md-4 bottom-animation'>
+                <i class='fas fa-book'/>
+                <h4>Reading Books</h4>
+                <p>I read lots of books yearly especially about programming, Self Development, Financial Intelligence, Stories of successfull people, etc...
+				<br/>
+				How can someone live without reading.
+				</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- My Works Section -->
+    <section id='works'>
+      <h1 class='header top-animation'>My Works</h1>
+      <h5 class='mini-header'>samples of my work, hope you like them.</h5>
+      <div class='row'>
+        <div class='col-lg-3 col-md-4 col-sm-6 col-xs-6 left-animation'>
+					<div class='work-img' style='background-image: url(https://i.imgur.com/ETbnLYp.png)'>
+						<div class='work-info'>
+                          	<a href='http://www.ma18.tk/' target='_blank'>MA-18</a>
+							<p>MA-18 is a simple Blog Designed by me.</p>
+						</div>
+					</div>
+			  </div>
+        <div class='col-lg-3 col-md-4 col-sm-6 col-xs-6 top-animation'>
+					<div class='work-img' style='background-image: url(&quot;https://i.imgur.com/5QNI5mZ.jpg&quot;);'>
+						<div class='work-info'>
+							<a href='#' target='_blank'>Title of work</a>
+							<p>Litle paragraph about this work.</p>
+						</div>
+					</div>
+			  </div>
+        <div class='col-lg-3 col-md-4 col-sm-6 col-xs-6 top-animation'>
+					<div class='work-img' style='background-image: url(&quot;https://i.imgur.com/5QNI5mZ.jpg&quot;);'>
+						<div class='work-info'>
+							<a href='#' target='_blank'>Title of work</a>
+							<p>Litle paragraph about this work.</p>
+						</div>
+					</div>
+			  </div>
+        <div class='col-lg-3 col-md-4 col-sm-6 col-xs-6 right-animation'>
+					<div class='work-img' style='background-image: url(&quot;https://i.imgur.com/5QNI5mZ.jpg&quot;);'>
+						<div class='work-info'>
+							<a href='#' target='_blank'>Title of work</a>
+							<p>Litle paragraph about this work.</p>
+						</div>
+					</div>
+			  </div>
+        <div class='col-lg-3 col-md-4 col-sm-6 col-xs-6 left-animation'>
+					<div class='work-img' style='background-image: url(&quot;https://i.imgur.com/5QNI5mZ.jpg&quot;);'>
+						<div class='work-info'>
+							<a href='#' target='_blank'>Title of work</a>
+							<p>Litle paragraph about this work.</p>
+						</div>
+					</div>
+			  </div>
+        <div class='col-lg-3 col-md-4 col-sm-6 col-xs-6 bottom-animation'>
+					<div class='work-img' style='background-image: url(&quot;https://i.imgur.com/5QNI5mZ.jpg&quot;);'>
+						<div class='work-info'>
+							<a href='#' target='_blank'>Title of work</a>
+							<p>Litle paragraph about this work.</p>
+						</div>
+					</div>
+			  </div>
+        <div class='col-lg-3 col-md-4 col-sm-6 col-xs-6 bottom-animation'>
+					<div class='work-img' style='background-image: url(&quot;https://i.imgur.com/5QNI5mZ.jpg&quot;);'>
+						<div class='work-info'>
+							<a href='#' target='_blank'>Title of work</a>
+							<p>Litle paragraph about this work.</p>
+						</div>
+					</div>
+			  </div>
+        <div class='col-lg-3 col-md-4 col-sm-6 col-xs-6 right-animation'>
+					<div class='work-img' style='background-image: url(&quot;https://i.imgur.com/5QNI5mZ.jpg&quot;);'>
+						<div class='work-info'>
+							<a href='#' target='_blank'>Title of work</a>
+							<p>Litle paragraph about this work.</p>
+						</div>
+					</div>
+			  </div>
+      </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id='about'>
+      <h1 class='header top-animation'>About me</h1>
+      <h5 class='mini-header bottom-animation'>Here is my Bio</h5>
+      <div class='info text-center bottom-animation'>
+        <div class='img'><img alt='Mohamed Ait Si Mhand' src='https://i.imgur.com/sNLcHMn.jpg'/></div>
+        <h1 class='left-animation'>MOHANED AIT SI MHAND</h1>
+        <h6 class='left-animation'>Web Developer &amp; Digital Designer</h6>
+        <p class='right-animation'>
+        I am MOHAMED AIT SI MHAND, a Digital Designer and Developer.
+        <br/>
+        I am from ,Agadir Morocco. I have 2 years of experience with designing websites.
+        <br/>
+        I have a very particular set of skills, my day is all about hard working and gaining more experience, coding 		with <b>HTML</b>, <b>CSS</b>, and <b>PHP</b> plus dabbling with <em>C#</em>, <em>C++</em>, <em>Bootstrap</em>, <em>Illustrator</em>, etc...;
+          <br/>          
+		I speak several languages such as <b>English</b>, <b>French</b>, <b>Arabic</b> and <b>Tamazight</b>.
+        </p>
+        <div class='social'>
+          <ul>
+            <li class='left-animation'><a class='fab fa-facebook-f' href='https://www.facebook.com/0x10000' target='_blank'/></li>
+            <li class='bottom-animation'><a class='fab fa-instagram' href='https://www.instagram.com/bboyaitsi/' target='_blank'/></li>
+            <li class='right-animation'><a class='fab fa-linkedin' href='https://www.linkedin.com/in/mohamed-ait-si-m-hand-a4b687161/' target='_blank'/></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Me Section -->
+    <section id='contact'>
+      <h1 class='header text-center top-animation'>Let&#39;s Connect</h1>
+      <h5 class='mini-header bottom-animation'>I asure you that you will get a high quality work. you can contact me via this section below.</h5>
+		
+      <form class='container'>
+      	<!-- Name Section -->
+        <label class='left-animation'>Name</label>
+        <div class='form-row'>
+
+          <!-- First Name Section -->
+          <div class='col left-animation'>
+            <input class='form-control' placeholder='First name' required='required' type='text'/>
+          </div>
+
+          <!-- Last Name Section -->
+          <div class='col right-animation'>
+             <input class='form-control' placeholder='Last name' required='required' type='text'/>
+          </div>
+
+        </div>
+        <br/>
+
+        <!-- Email Section -->
+        <div class='form-row left-animation'>
+          <div class='col'>
+            <label>Email</label>
+            <div class='input-group'>
+              <div class='input-group-prepend'>
+                <div class='input-group-text' style='border-radius: 0;background:#f3f3f3;'>@</div>
+              </div>
+              <input class='form-control' name='email' placeholder='Email' required='required' type='email'/>
+            </div>
+          </div>
+        </div>
+        <br/>
+
+        <!-- Subject Section -->
+        <div class='right-animation'>
+          <label>Subject</label>
+          <div class='input-group'>
+            <input class='form-control' name='Subject' placeholder='Subject' required='required' type='text'/>
+          </div>
+        </div>
+        <br/>
+
+        <!-- Message Section -->
+        <div class='left-animation'>
+          <label>Message</label>
+          <textarea class='form-control' name='Message' placeholder='Message' required='required' type='text'>	</textarea>
+        </div>
+        <br/>
+
+        <!-- Submit Button Section -->
+        <button class='btn bottom-animation' type='submit'><i class='fas fa-paper-plane'/>Send Message</button>
+      </form>
+    </section>
+
+    <!-- The Footer -->
+    <footer class='text-center' id='footer'>
+      	<div class='top-button top-animation'>
+			<a href='#home'><i class='fas fa-arrow-up'/></a>
+		</div>
+      <ul class='container'>
+        <li>
+			<a class='fab fa-facebook-f left-animation' href='https://www.facebook.com/0x10000' target='_blank'/>
+		</li>
+        <li>
+			<a class='fab fa-instagram top-animation' href='https://www.instagram.com/bboyaitsi/' target='_blank'/>
+		</li>
+        <li>
+			<a class='fab fa-linkedin top-animation' href='https://www.linkedin.com/in/mohamed-ait-si-m-hand-a4b687161/' target='_blank'/>
+		</li>
+        <li>
+			<a class='fab fa-twitter bottom-animation' href='https://twitter.com/mohamadaitsi' target='_blank'/>
+		</li>
+        <li>
+			<a class='fab fa-youtube right-animation' href='https://www.youtube.com/channel/UCfa1kPLUp8ZbSPIDt1ZJTCw' target='_blank'/>
+		</li>
+      </ul>
+      <p class='bottom-animation'>Powered By <a href='#about'>Me</a>.</p>
+      <ul class='row'>
+        <li class='col-sm-4'><i class='fas fa-map-marker-alt'/><span>Morocco, Agadir, Center Ait Amira Chtouka Ait Baha</span></li>
+        <li class='col-sm-4'><i class='fas fa-at'/><span>mohamedaitsimhand@gmail.com</span></li>
+        <li class='col-sm-4'><i class='fas fa-phone'/><span>+212 606042794</span></li>
+      </ul>
+    </footer>
+
+
+
+	<!-- jQuery Plugins
+	  ================================================== -->
+
+	<!-- Main jQuery -->
+    <script src='http://code.jquery.com/jquery-2.1.3.min.js'/>
+	<!-- Twitter Bootstrap -->
+    <script crossorigin='anonymous' integrity='sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl' src='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js'/>
+    <!-- Scroll Reveal -->
+    <script src='https://unpkg.com/scrollreveal/dist/scrollreveal.min.js'/>
+    <!-- Animation -->
+    <script type='text/javascript'>
+      window.sr = ScrollReveal();
+      sr.reveal(&#39;.top-animation&#39;,{
+        duration: 2000,
+        origin: &#39;top&#39;,
+        distance: &#39;100px&#39;,
+      });
+      sr.reveal(&#39;.left-animation&#39;,{
+        duration: 2000,
+        origin: &#39;left&#39;,
+        distance: &#39;100px&#39;,
+      });
+      sr.reveal(&#39;.right-animation&#39;,{
+        duration: 2000,
+        origin: &#39;right&#39;,
+        distance: &#39;0px&#39;,
+      });
+      sr.reveal(&#39;.bottom-animation&#39;,{
+        duration: 3000,
+        origin: &#39;bottom&#39;,
+        distance: &#39;100px&#39;,
+      });
+    </script>
+  </body>
 </html>

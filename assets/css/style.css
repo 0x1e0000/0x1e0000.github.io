@@ -1,0 +1,450 @@
+/**
+*
+* ---------------------------------------------------------------------------
+
+         Author         :       Mohamed Ait Si Mhand
+         Template       :       My Template
+         Website  		:       aitsi.me
+         Email  			:       mohamedaitsimhand@gmail.com
+         Twitter  		:       Twitter.com/mohamadaitsi
+         Facebook  		:       Facebook.com/0x10000
+
+* ---------------------------------------------------------------------------
+*/
+
+/*================================================================================================================================================
+   Import css files
+================================================================================================================================================*/
+/*=== Bootstrap ===*/
+@import 'bootstrap.min.css';
+/*=== Fontawesome ===*/
+@import 'all.min.css';
+/*=== animate ===*/
+@import 'animate.min.css';
+/*=== Variables ===*/
+@import 'variables.css';
+/*=== Fonts ===*/
+@import 'fonts.css';
+
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+body {
+   font-family: "Source Sans Pro", Arial, sans-serif;
+   background: none;
+   color: var(--color-dark-grey);
+}
+
+a {
+   text-decoration: none;
+   color: var(--color-dark-grey);
+}
+
+li {
+   list-style: none;
+}
+
+label,
+textarea {
+   display: block;
+}
+
+.bg-blue {
+   background-color: var(--color-blue);
+}
+
+.header {
+   display: block;
+   color: var(--color-dark-grey);
+   font-size: 40px;
+   letter-spacing: 2px;
+   text-transform: uppercase;
+   padding-top: 58px;
+   padding-bottom: 20px;
+   margin: 0;
+   font-weight: bold;
+   text-align: center;
+}
+
+.mini-header {
+   text-align: center;
+   padding-bottom: 58px;
+}
+
+.mini-header::after {
+   display: block;
+   position: relative;
+   content: '';
+   top: 15px;
+   left: 50%;
+   width: 100px;
+   margin-left: -50px;
+   height: 3px;
+   background: var(--color-yellow);
+}
+
+.navbar-brand {
+   padding: 0;
+   margin: 0;
+
+}
+
+.show-in-sm {
+   display: none;
+}
+
+/*--------------- Home -------------------*/
+#home {
+   width: 100%;
+   background-image: url("https://i.imgur.com/XnY65zT.jpg");
+   background-color: var(--color-dark-grey);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   color: #ffffff;
+}
+
+#home .shadow {
+   background-color: #0000004d;
+   width: 100%;
+   height: 91.7vh;
+}
+
+#home .shadow .container {
+   text-align: center;
+   position: relative;
+   top: 30%
+}
+
+#home h1 {
+   font-size: 65px !important;
+   margin: 27px 0 0 0;
+   text-transform: uppercase;
+   font-family: Arial;
+   font-weight: bold;
+}
+
+#home h2 {
+   margin: 0;
+   color: #ffffff;
+   font-family: adobe-garamond-pro;
+   font-size: 24px;
+   font-style: italic;
+   font-weight: 400;
+   letter-spacing: 1px;
+   line-height: 1.5em;
+   text-transform: none;
+}
+
+#home h2::after {
+   display: block;
+   position: relative;
+   content: '';
+   top: 15px;
+   left: 50%;
+   width: 100px;
+   margin-left: -50px;
+   height: 3px;
+   background: var(--color-yellow);
+}
+
+#home h3 {
+   display: none;
+   font-size: 40px !important;
+   margin: 0;
+   text-transform: uppercase;
+   font-family: Arial;
+   font-weight: bold;
+   top: 12vh;
+   position: relative;
+}
+
+@media screen and (max-width : 992px) {
+   #home h1 {
+      display: none
+   }
+
+   #home h3 {
+      display: block;
+   }
+
+   .show-in-sm {
+      display: inline-block;
+   }
+
+   .hidden-in-sm {
+      display: none
+   }
+}
+
+/*--------------- Navbar -------------------*/
+#menu .container .collapse .navbar-nav .nav-item .nav-link {
+   color: #ffffff;
+   padding: 10px 50px;
+}
+
+#menu .container img {
+   color: #ffffff;
+}
+
+#menu .container button span {
+   color: #ffffff;
+}
+
+#menu .navbar-nav .nav-item .nav-link:hover {
+   color: #dadada;
+}
+
+/*--------------- Works -------------------*/
+#works {
+   padding-bottom: 58px;
+}
+
+#works .row {
+   margin: 0;
+}
+
+#works .row div {
+   padding: 0
+}
+
+#works .row div .work-img {
+   width: 100%;
+   height: 230px;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+/* If we hover .work-img display .work-info*/
+#works .row div .work-img:hover .work-info {
+   display: block;
+}
+
+#works .row div .work-img .work-info {
+   display: none;
+   text-align: center;
+   width: 100%;
+   height: 100%;
+   padding: 5em 0;
+   color: #ffffff;
+   font-weight: bold;
+   background-color: #0009;
+   cursor: pointer;
+}
+
+#works .row div .work-img .work-info a {
+   color: #ffffff;
+   font-size: 30px;
+}
+
+/*--------------- Hobies -------------------*/
+#hobies {
+   background: var(--color-light-grey);
+   padding-bottom: 58px;
+}
+
+#hobies .row {
+   margin: 0
+}
+
+#hobies .row i {
+   color: var(--color-yellow);
+   font-size: 45px;
+   margin-bottom: 30px
+}
+
+#hobies .row div {
+   margin-top: 30px;
+}
+
+#hobies .row div h4 {
+   color: var(--color-dark-grey);
+   font-weight: bold;
+}
+
+#hobies .row div p {
+   padding: 0 40px;
+}
+
+/*--------------- About -------------------*/
+#about {
+   background: var(--color-light-grey);
+   padding-bottom: 58px;
+}
+
+#about .info {
+   background: #ffffff;
+   margin: 50px auto 0 auto;
+   padding: 20px;
+   box-shadow: 0 0 50px #959595;
+   width: 80%;
+   border-radius: 5px;
+}
+
+#about .info .img {
+   position: relative;
+   margin: 0 auto;
+   width: 115px;
+   height: 115px;
+   background: #cfcfcf;
+   border: 10px solid #ffffff;
+   border-radius: 100px;
+   bottom: 5em;
+   overflow: hidden;
+}
+
+#about .info .img img {
+   width: auto;
+   height: 100%;
+   position: relative;
+   right: 0.5em;
+}
+
+#about .info h1 {
+   margin: 0;
+   margin-bottom: 10px;
+   margin-top: -70px;
+}
+
+#about .info h6 {
+   color: var(--color-blue);
+}
+
+#about .info p {
+   padding: 20px;
+   margin: 0;
+   font-style: italic;
+   font-size: 20px;
+   line-height: 1.6em;
+   color: #555555;
+}
+
+#about .info .social ul {
+   margin: 0;
+}
+
+#about .info .social ul li {
+   display: inline-block;
+   margin: 0 25px;
+}
+
+#about .info .social ul li a {
+   font-size: 20px;
+   text-decoration: none;
+   color: #367abd;
+}
+
+#about .info .social ul li a:hover {
+   color: var(--color-yellow);
+}
+
+/*--------------- Contact -------------------*/
+#contact {
+   padding-bottom: 70px;
+   display: none;
+}
+
+#contact label::after {
+   content: '*';
+   color: #f66;
+   margin-left: 2px;
+}
+
+#contact form textarea {
+   height: 180px;
+}
+
+#contact form button {
+   background: var(--color-yellow);
+   color: var(--color-dark-grey);
+   display: block;
+   margin: 0 auto;
+   width: 100%;
+   padding: 15px 0;
+   font-weight: bold;
+}
+
+#contact form button:hover {
+   background: var(--color-dark-grey);
+   color: #ffffff
+}
+
+#contact form button i {
+   margin-right: 20px;
+}
+
+#contact form input,
+#contact form textarea {
+   background: rgba(0, 0, 0, 0);
+   border-radius: 0;
+}
+
+/*--------------- Footer -------------------*/
+#footer {
+   background-color: #0e0e0e;
+   color: var(--color-light-grey);
+}
+
+#footer .top-button {
+   margin: 0 auto;
+   border-radius: 50px;
+   height: 50px;
+   position: relative;
+   bottom: 25px;
+   background: var(--color-yellow);
+   border: none;
+   display: inline-block;
+   width: 50px;
+}
+
+#footer .top-button a i {
+   color: #0e0e0e;
+   font-size: 25px;
+   top: 12px;
+   position: relative;
+}
+
+#footer ul {
+   margin: 0 auto;
+}
+
+#footer ul li {
+   padding: 10px 15px;
+   display: inline-block;
+}
+
+#footer ul li a {
+   color: #cfcfcf;
+   text-decoration: none;
+   font-size: 20px;
+}
+
+#footer ul li a:hover {
+   color: var(--color-yellow);
+}
+
+#footer p {
+   margin: 30px 0;
+   font-size: 15px;
+}
+
+#footer p a {
+   color: #cfcfcf;
+   font-weight: bold;
+}
+
+#footer .row li span {
+   margin-left: 10px;
+}
+
+#footer .row li i {
+   color: var(--color-yellow);
+}
+
+#footer .row .fa-phone {
+   transform: rotate(90deg);
+}
